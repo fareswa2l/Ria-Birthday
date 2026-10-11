@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff5f7" />
+  <title>Happy Birthday, Ria! 🎂</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true"></div>
+  <main class="page">
+    <nav class="topline"><span class="tiny-heart">♥</span> A LITTLE SOMETHING JUST FOR YOU <span class="tiny-heart">♥</span></nav>
+
+    <section class="hero">
+      <div class="eyebrow"><span>✦</span> TODAY IS ALL ABOUT YOU <span>✦</span></div>
+      <h1>Happy Birthday,<br /><em>Ria! 🎂</em></h1>
+      <p class="intro">To an extraordinary person who makes everything brighter.</p>
+      <div class="cake" aria-label="Birthday cake illustration">
+        <div class="candle"><span class="flame"></span></div>
+        <div class="icing"></div>
+        <div class="cake-top"></div>
+        <div class="cake-bottom"></div>
+        <div class="plate"></div>
+      </div>
+      <div class="scroll-note">A tiny birthday surprise is waiting below <span>↓</span></div>
+    </section>
+
+    <section class="message-card">
+      <div class="card-icon">♡</div>
+      <p class="small-label">A NOTE FOR YOU</p>
+      <h2>A very special <em>person.</em></h2>
+      <p class="letter">
+        Ria, you are such a truly special person. I’m wishing you a wonderful year ahead filled with immense success, endless laughter, and countless beautiful memories.
+      </p>
+      <p class="wish">May this year bring you everything your heart desires. ♡</p>
+      <div class="signature">From Fares, with best wishes <span>♥</span></div>
+    </section>
+
+    <section class="gift-section">
+      <p class="small-label">YOUR BIRTHDAY GIFT</p>
+      <h2>Okay… now open <em>your gift.</em></h2>
+      <p class="gift-hint">Go on. Tap the box. I promise it's worth it. 🎀</p>
+      <button class="gift-button" id="giftButton" aria-label="Open your birthday gift">
+        <span class="gift-bow"><i></i><i></i></span>
+        <span class="gift-lid"></span>
+        <span class="gift-box"><span class="ribbon"></span></span>
+        <span class="gift-shadow"></span>
+      </button>
+      <p class="tap-label" id="tapLabel">TAP TO OPEN</p>
+    </section>
+
+    <footer>MADE JUST FOR YOU <span>♥</span> WITH LOVE, ALWAYS</footer>
+  </main>
+
+  <div class="modal" id="giftModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-card">
+      <button class="close" id="closeModal" aria-label="Close">×</button>
+      <div class="modal-sparkle">✧</div>
+      <p class="small-label">SURPRISE!</p>
+      <h2 id="modalTitle">A Little Birthday Surprise for You! <em>🎁</em></h2>
+      <p class="modal-message">
+        Happy Birthday, Ria! I hope your day is filled with laughter, happiness, and all the little things that make you smile.
+      </p>
+      <p class="modal-message">
+        May this year bring you amazing opportunities, unforgettable memories, and plenty of reasons to be proud of yourself.
+      </p>
+      <p class="modal-message">
+        Keep being your wonderful self, and never stop chasing the things that make you happy!
+      </p>
+      <p class="modal-message">
+        Have the most amazing birthday! ✨
+      </p>
+      <div class="big-heart">♥</div>
+      <p class="forever">— Fares</p>
+      <button class="again-button" id="againButton">One more hug? ♡</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
